@@ -53,6 +53,8 @@ li{
 
 }
 */
+
+/*** Aula 55 Criando barra de navegação vertical
 ul{
     margin: 0;
     padding: 0;
@@ -85,4 +87,19 @@ a:hover, {
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
+}
+*/
+/* 
+Aula 57. Criando barra de navegação horizontal */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png);
+    
+}
+ul li{
+    border: 1px solid red;
+    float: left;
 }
